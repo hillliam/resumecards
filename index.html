@@ -26,38 +26,7 @@
         </div>
       </div>
       <div class="row">
-        {% for card in site.posts reversed %}
-          <div class="col-sm-4">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">{{ card.type }}</h3>
-              </div>
-              <div class="panel-body">
-                {% if card.heading %}
-                  <h4>
-                    {{ card.heading }}
-                  </h4>
-                {% endif %}
-                {% if card.subheading %}
-                  <p class="resume-subheading">
-                    {{ card.subheading }}
-                  </p>
-                {% endif %}
-                {% if card.duration %}
-                  <p class="resume-duration">
-                    {{ card.duration }}
-                  </p>
-                {% endif %}
-                {% if card.location %}
-                  <p class="resume-location">
-                    {{ card.location }}
-                  </p>
-                {% endif %}
-                {{ card.content }}
-              </div>
-            </div>
-          </div>
-        {% endfor %}
+        {% include card.html %}
       </div>
       {% if site.data.resume.demo %}
       <div class="visible-xs hidden-print resume-view-pdf"><a href="http://cl.ly/Zb42/download/resume-print-sample.pdf" class="btn btn-primary btn-lg">View Generated PDF</a></div>

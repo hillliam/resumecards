@@ -1,0 +1,33 @@
+{% for card in site.posts %}
+    <div class="col-sm-6">
+      <div class="panel panel-default">
+      <div class="panel-heading">
+          <a href="{{ card.url | prepend:site.baseurl }}">
+        <h3 class="panel-title">{{ card.type }}</h3></a>
+      </div>
+        <div class="panel-body">
+        {% if card.heading %}
+          <h4>
+            {{ card.heading }}
+          </h4>
+        {% endif %}
+        {% if card.subheading %}
+          <p class="resume-subheading">
+            {{ card.subheading }}
+          </p>
+        {% endif %}
+        {% if card.duration %}
+          <p class="resume-duration">
+            {{ card.duration }}
+          </p>
+        {% endif %}
+        {% if card.location %}
+          <p class="resume-location">
+            {{ card.location }}
+          </p>
+        {% endif %}
+        {{ card.content }}
+      </div>
+    </div>
+  </div>
+{% endfor %}
