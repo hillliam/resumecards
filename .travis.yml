@@ -6,6 +6,8 @@ rvm:
 branches:
   only:
     - gh-pages
+before_install:
+  - gem install html-proofer
 script:
   - bundle exec jekyll build
   - bundle exec htmlproof ./_site --check-favicon --check-html
