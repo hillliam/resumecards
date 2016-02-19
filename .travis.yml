@@ -1,4 +1,8 @@
 language: ruby
+# whitelist
+branches:
+  only:
+    - gh-pages
 script:
   - bundle exec jekyll build
   - bundle exec htmlproof ./_site --check-favicon --check-html
