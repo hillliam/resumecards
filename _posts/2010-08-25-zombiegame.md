@@ -12,4 +12,4 @@ Extended: [![Build Status](https://travis-ci.org/hillliam/zombiegame.svg?branch=
 
 Project during the first year that allows the player to move around a map avoiding the zombies
 
-writen in c++ and the Extended version ported to run in any web browser
+written in C++ and the Extended version ported to run in any web browser

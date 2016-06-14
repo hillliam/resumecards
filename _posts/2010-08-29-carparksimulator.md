@@ -10,4 +10,4 @@ with: "3"
 [![Build status](https://ci.appveyor.com/api/projects/status/j66m2kup318tp5y4?svg=true)](https://ci.appveyor.com/project/hillliam/car-park-simulator)
 [![Code Climate](https://codeclimate.com/github/hillliam/Car-Park-Simulator/badges/gpa.svg)](https://codeclimate.com/github/hillliam/Car-Park-Simulator)
 
-c# car park simulator writen for one of the IRSM Group Project's
+c# car park simulator written for one of the IRSM Group Project's

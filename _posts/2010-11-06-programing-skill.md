@@ -4,7 +4,7 @@ with: "3"
 heading: "Programming Languages"
 ---
 
-* c++
+* C++
 * C
 * C#
 * java
