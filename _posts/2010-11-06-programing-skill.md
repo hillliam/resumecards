@@ -10,5 +10,5 @@ heading: "Programming Languages"
 * java
 * PHP
 * VB
-* X86 asm
+* X86 assembly
 * JavaScript
