@@ -6,14 +6,14 @@ debug: false
 
 photo: ""
 name: "Liam Hill"
-description: "my resume"
-keywords: "C++,c,web,developer,employability,profetional,html,css,jekyll,Emscripten"
-copy: "Experienced programer with skills in a variety of prorgaming languages and skill in developing software for many platforms"
+description: "My resume"
+keywords: "C++,C#,C,PHP,Java,JavaScript,web,developer,employability,professional,Html,CSS,Jekyll,Emscripten"
+copy: "Experienced programmer with skills in a variety of programing languages and skill in developing software for many platforms"
 
-placment: true
-placmentm: "if you feel i am appropriate for any placments you are offering contact me"
+placment: false
+placmentm: "If you feel i am appropriate for any placements you are offering contact me"
 employment: false
-employmentm: "i am currently avalible for work"
+employmentm: "I am currently avalible for work"
 
 # Color scheme based on http://www.materialui.co/colors.
 # Possible values:
