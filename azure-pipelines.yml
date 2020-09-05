@@ -1,0 +1,27 @@
+# Ruby
+# Package your Ruby project.
+# Add steps that install rails, analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/ruby
+
+trigger:
+- gh-pages
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UseRubyVersion@0
+  inputs:
+    versionSpec: '>= 2.5'
+
+- script: |
+    gem install bundler
+    gem install html-proofer
+    bundle install
+  displayName: 'bundle install'
+
+- script: bundle exec jekyll build
+  displayName: 'jekyll build'
+
+- script: 'htmlproofer ./_site --check-favicon --check-html'
+  displayName: 'html proof'
