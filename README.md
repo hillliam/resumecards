@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ellekasai/resumecards)
+
 # :briefcase: ResumeCards :briefcase:
 
 ResumeCards is a Markdown based resume generator. It looks great on mobile/desktop and can be saved as PDF.
